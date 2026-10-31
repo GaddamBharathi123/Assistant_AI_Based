@@ -1,0 +1,34 @@
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Uploaded documents
+uploaded_files/
+
+# Generated data
+chat_history/
+*.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
